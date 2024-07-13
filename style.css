@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(dico.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/*Header*/
+header{
+    padding: 10px 0px;
+    color: rgb(241, 3, 3);
+}
+img{
+    width: 100px;
+}
+.bi-facebook{
+    color: rgb(8, 8, 227);
+}
+
+/*Barra de Navegacion*/
+.navbar{
+    padding: 2rem;
+}
+
+.nav-link{
+    color: rgb(148, 179, 65);
+    font-size: 18px;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Generales*/
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: fantasy;
+}
+
+.titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.seccion-Oscuro{
+    color: rgb(39, 255, 15);
+}
+
+.seccion-clara{
+    color: rgb(250, 224, 34);
+}
+
+.seccion-descripcion{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/*Emociones*/
+.emociones{
+    padding: 40px;
+}
+
+.emociones img{
+    height: 50%;
+    width: 50%;
+    padding: 10px;
+    border-radius: 50px;
+    display: block;
+    transition: all 0.2s ease;
+}
+.overlay{
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.overlay p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.Alegria{
+    position: relative;
+}
+
+.Alegria p{
+  text-align: center;
+  position:absolute;
+  right: 55px;
+}
+.Alegria:hover  .overlay{
+    opacity: 1;
+}
+
+.Alegria:hover img{
+    opacity: 0.2;
+}
+/*Principal*/
+.Principal{
+    min-height: 450px;
+    text-align: center;
+}
+
+.Imagen-Grupo{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+/*Nosotros*/
+.Nosotros{
+    height: 500px;
+    padding: 10px;
+}
+.Nosotros .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+.container h2{
+    color: rgb(237, 7, 7);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
